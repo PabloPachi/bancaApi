@@ -18,5 +18,7 @@ public class Beneficiario {
     @ManyToOne
     @JoinColumn(name = "cuenta_numero")
     private Cuenta cuenta;
+    public Beneficiario(){
 
+    }
 }

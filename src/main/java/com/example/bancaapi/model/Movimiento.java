@@ -18,4 +18,7 @@ public class Movimiento {
     @ManyToOne
     @JoinColumn(name = "cuenta_numero")
     private Cuenta cuenta;
+    public Movimiento(){
+
+    }
 }
